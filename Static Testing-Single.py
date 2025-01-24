@@ -14,7 +14,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 new_model = load_model('C:/Users/ASUS/Music/SE Semester Project/Best_model_hamza.h5')
 
 root = tk.Tk()
-root.title("Hamza")
+root.title("Emotion Classification Single")
 
 uploaded_image = None
 
