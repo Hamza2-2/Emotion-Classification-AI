@@ -83,7 +83,15 @@ python "AI Model Training.py"
 ```
 Ensure you modify the script to point to your dataset directory.
 
-📌 Notes
+
+## Screenshots
+
+<img width="340" height="606" alt="image" src="https://github.com/user-attachments/assets/d81c2b1b-41b5-4666-8846-96e91e132f71" />
+
+<img width="576" height="413" alt="image" src="https://github.com/user-attachments/assets/fd5533f7-aa5c-484d-8373-2f929fa1b62c" />
+
+
+## 📌 Notes
 Pre-trained model is saved as: Emotion AI Model.h5
 
 Modify script paths if running from a different working directory.  
