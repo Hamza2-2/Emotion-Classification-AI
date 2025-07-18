@@ -1,22 +1,39 @@
 # Emotion-Classification-AI
-This project implements an **Emotion Classification AI System** using a Convolutional Neural Network (CNN) trained with TensorFlow/Keras. It supports both static image testing and real-time emotion recognition via webcam.
+This project implements a deep learning-based Emotion Classification AI System using a Convolutional Neural Network (CNN) built with TensorFlow/Keras. It can classify human emotions in both real-time via webcam and from static images. Ideal for integrating into smart AI systems, education tools, or emotion-aware applications.
 
----
+## 🧠 Model Overview
+- Framework: TensorFlow / Keras
+
+- Model Type: Convolutional Neural Network (CNN)
+
+- Output Classes:
+
+  - Angry
+
+  - Disgust
+
+  - Fear
+
+  - Happy
+
+  - Sad
+
+  - Surprise
+
+  - Neutral
+
+Model Format: .h5 file (Keras format)
 
 ## 📁 Repository Structure
 Emotion-Classification-AI/
 
-├── AI Model Training.py # Script to train the emotion classifier
-
-├── Emotion AI Model.h5 # Trained CNN model file
-
-├── Real-Time Testing.py # Real-time webcam emotion detection
-
-├── Static Testing Multi-Image.py # Test on multiple static images
-
-├── Static Testing Single-Image.py # Test on a single static image
-
-└── README.md # Project documentation
+Emotion-Classification-AI/
+├── AI Model Training.py              # Train the CNN model using a labeled dataset
+├── Emotion AI Model.h5              # Pre-trained CNN model file
+├── Real-Time Testing.py             # Real-time webcam-based emotion detection
+├── Static Testing Multi-Image.py    # Predict emotion for multiple static images
+├── Static Testing Single-Image.py   # Predict emotion for a single static image
+└── README.md           
 
 ## 🧠 Model Overview
 
@@ -41,7 +58,7 @@ Ensure Python 3.10+ is installed, then run:
 pip install tensorflow opencv-python matplotlib numpy
 ```
 
-🚀 How to Use
+## 🚀 How to Use
 
 🔴 Real-Time Emotion Detection
  ```
@@ -70,3 +87,11 @@ Ensure you modify the script to point to your dataset directory.
 Pre-trained model is saved as: Emotion AI Model.h5
 
 Modify script paths if running from a different working directory.  
+
+## 👨‍💻 Developer
+
+Hamza Afzal
+
+BSCS, Bahria University, Islamabad
+
+GitHub: Hamza2-2
